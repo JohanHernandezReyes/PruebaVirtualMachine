@@ -1,0 +1,14 @@
+button{
+    width:80px;
+    text-align: center;
+    color:blue;
+    padding:3px;
+    font-size: 13px;
+}
+
+input{
+    width:130px;
+    padding:4px;
+    align-self:right;
+    margin: 8px auto;
+}
