@@ -62,7 +62,7 @@ function guardarCabin(){
             $("#rooms").val("");
             $("#category_id").val("");
             $("#name").val("");
-            Consultar();
+            ConsultarCabin();
             alert("se ha guardado el dato")
         }
     });
@@ -91,7 +91,7 @@ function editarCabin(){
             $("#roooms").val("");
             $("#category_id").val("");
             $("#name").val("");
-            Consultar();
+            ConsultarCabin();
             alert("se ha Actualizado")
         }
     });
@@ -110,7 +110,7 @@ function borrarCabin(idElemento){
         datatype:"JSON",
         success:function(respuesta){
             $("#resultado").empty();
-            Consultar();
+            ConsultarCabin();
             alert("Se ha Eliminado.")
         }
     });
