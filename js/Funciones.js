@@ -169,7 +169,7 @@ function guardarClient(){
     $.ajax({
         url:"https://g129b2236c30a40-cabin.adb.sa-santiago-1.oraclecloudapps.com/ords/admin/client/client",
         type:"POST",
-        data:dataToSend,
+        data:myData,
         datatype:"JSON",
         success:function(respuesta){
             $("#resultClient").empty();
