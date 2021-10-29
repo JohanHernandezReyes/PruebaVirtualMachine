@@ -160,8 +160,8 @@ function mostrarClient(items){
 
 function guardarClient(){
     let myData={
-        id:$("#id").val(),
-        name:$("#name").val(),
+        id:$("#idC").val(),
+        name:$("#nameC").val(),
         email:$("#email").val(),
         age:$("#age").val(),
     };
@@ -173,8 +173,8 @@ function guardarClient(){
         datatype:"JSON",
         success:function(respuesta){
             $("#resultClient").empty();
-            $("#id").val("");
-            $("#name").val("");
+            $("#idC").val("");
+            $("#nameC").val("");
             $("#email").val("");
             $("#age").val("");
             ConsultarClient();
@@ -185,8 +185,8 @@ function guardarClient(){
 
 function editarClient(){
     let myData={
-        id:$("#id").val(),
-        name:$("#name").val(),
+        id:$("#idC").val(),
+        name:$("#nameC").val(),
         email:$("#email").val(),
         age:$("#age").val(),
     };
@@ -200,8 +200,8 @@ function editarClient(){
         datatype:"JSON",
         success:function(respuesta){
             $("#resultClient").empty();
-            $("#id").val("");
-            $("#name").val("");
+            $("#idC").val("");
+            $("#nameC").val("");
             $("#email").val("");
             $("#age").val("");
             ConsultarClient();
